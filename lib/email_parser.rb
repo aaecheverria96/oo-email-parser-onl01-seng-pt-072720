@@ -10,7 +10,7 @@ class EmailAddressParser
   def initialize(email_addresses)
     list_emails = []
     @email_addresses = email_addresses
-    @email_addresses.split(' ')
+    @email_addresses.split(' , ')
     list_emails << @email_addresses
   end
 end
